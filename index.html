@@ -13,6 +13,8 @@
             font-family: 'Manrope', sans-serif;
         }
     </style>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/c7e92be461.js" crossorigin="anonymous"></script>
     <!-- custom tailwind color -->
     <script>
         tailwind.config = {
@@ -29,9 +31,28 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="font-manrope">
     <header>
-
+        <div class="hero ">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              <div>
+                <img src="./images/banner.png" class="max-w-sm" />
+                <div class="flex gap-3 items-center bg-white drop-shadow-lg py-5 px-6 -mt-12 w-60">
+                    <i class="fa-solid fa-star text-3xl text-amber-500"></i>
+                    <div>
+                    <h3 class="font-extrabold text-3xl">5.00</h3>
+                    <p class="">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+              </div>
+              <div>
+                <h1 class="text-7xl font-extrabold">It's good <br>
+                    tea time at <br>The Tea House</h1>
+                <p class="py-6 text-lg">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="btn btn-primary">Explore</button>
+              </div>
+            </div>
+          </div>
     </header>
     <main>
 
